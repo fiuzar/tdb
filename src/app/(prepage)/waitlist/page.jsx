@@ -1,6 +1,27 @@
 import { Card } from "@/components/ui/card";
 import WaitListForm from "@/components/root/waitlist-form";
 
+export const metadata = {
+    title: "Join TDBase Waitlist - Be the First to Access Our AI Trading Coach",
+    description: "Sign up for the TDBase waitlist and be among the first to experience our AI-powered trading journal and performance tracker designed for consistent traders.",
+    openGraph: {
+    title: "Join TDBase Waitlist",
+    description: "Sign up for the TDBase waitlist and be among the first to experience our AI-powered trading journal and performance tracker designed for consistent traders.",
+    url: process.env.NEXT_PUBLIC_WEBSITE_ADDRESS + "/waitlist",
+    siteName: "TDBase",
+    images: [
+      {
+        url: `${process.env.NEXT_PUBLIC_WEBSITE_ADDRESS}/img/logo.png`,
+        width: 1200,
+        height: 630,
+        alt: "TDBase Open Graph Image",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+};
+
 export default function WaitlistPage() {
     return (
         <div className="container p-3 mx-auto">

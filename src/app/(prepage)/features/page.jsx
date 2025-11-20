@@ -1,3 +1,7 @@
+// export const metadata = {
+//     title: 
+// }
+
 const features = [
     {
         id: "1",
