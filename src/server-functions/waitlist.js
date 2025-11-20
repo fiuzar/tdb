@@ -5,6 +5,8 @@ import nodemailer from "nodemailer"
 
 export async function addToWaitlist(name, email) {
 
+    return {success: false, message: "Wait-list is currently disabled."}
+
     if (!name || !email) {
         return { success: false, message: "Name and email are required." }
     }
