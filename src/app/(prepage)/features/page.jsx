@@ -1,3 +1,5 @@
+import Image from "next/image"
+
 // export const metadata = {
 //     title: 
 // }
@@ -82,7 +84,9 @@ export default function FeaturesPage() {
                             className="border-border flex flex-col overflow-clip rounded-xl border"
                         >
                             <a href={feature.url}>
-                                <img
+                                <Image
+                                    width={600}
+                                    height={600}
                                     src={feature.image}
                                     alt={feature.heading}
                                     className="aspect-16/9 h-full w-full object-cover object-center transition-opacity hover:opacity-80"
