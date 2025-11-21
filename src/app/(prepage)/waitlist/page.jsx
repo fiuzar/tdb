@@ -22,7 +22,7 @@ export const metadata = {
   },
 };
 
-export default function WaitlistPage() {
+export default function WaitlistzPage() {
     return (
         <div className="container p-3 mx-auto">
             <div className="mx-auto max-w-6xl px-6 lg:px-8">
