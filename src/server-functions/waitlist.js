@@ -39,9 +39,10 @@ function escapeHtml(str = "") {
     .replace(/'/g, "&#39;");
 }
 
-export async function addToWaitlist(name, email) {
+export async function addToWaitlist(untrimed_name, untrimed_email) {
 
-    // return {success: false, message: "Wait-list is currently disabled."}
+    const name = untrimed_name.trim()
+    const email = untrimed_email.trim()
 
     if (!name || !email) {
         return { success: false, message: "Name and email are required." }
@@ -49,7 +50,7 @@ export async function addToWaitlist(name, email) {
 
     try {
         const result = await query(
-            "INSERT INTO tdbase_waitlist (name, email) VALUES (?, ?)",
+            "INSERT INTO tdbase_waitlist (name, email) VALUES ($1, $2)",
             [name, email]
         )
 

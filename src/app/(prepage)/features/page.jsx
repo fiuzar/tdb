@@ -8,57 +8,57 @@ const features = [
         heading: "Real-Time Trade Monitoring",
         description:
             "TDBase watches every trade you take in real time and immediatly flags mistakes or risky patters before they damage your account.",
-        image: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-1.svg"
+        image: "/img/1.png"
     },
     {
         id: "2",
         heading: "AI Trading Mentor",
         description:
             "Your AI mentor analyzes your behaviour, identifies emotional decisions and guides you toward smarter, rule-based trading every single day.",
-        image: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-2.svg"
+        image: "/img/2.png"
     },
     {
         id: "3",
         heading: "Deep Performance Analytics",
         description:
             "See the full picture of your trading with detailed metrics and emotional context so you can review performance without doing manual work.",
-        image: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-3.svg"
+        image: "/img/3.png"
     },
     {
         id: "4",
         heading: "Smart Trading Journal",
         description: "Your trades are automatically captured with charts, notes and emotional context so you can review performance without doing manual work.",
-        image: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-3.svg"
+        image: "/img/4.png"
     },
     {
         id: "5",
         heading: "Community & Social Layer",
         description: "Learn faster by sharing charts, ideas, wins and lessons with other traders who are growing improving just like you.",
-        image: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-3.svg"
+        image: "/img/5.png"
     },
     {
         id: "6",
         heading: "Prop Firm Funding Roadmap",
         description: "Follow a clear guided funding path that shows you exactly what to fix to pass evaluations and stay profitable with prop firms.",
-        image: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-3.svg"
+        image: "/img/6.png"
     },
     {
         id: "7",
         heading: "Mistake Alert System",
         description: "Get instant alerts when you make common trading mistakes so you can correct course before small errors turn into big losses.",
-        image: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-3.svg"
+        image: "/img/8.png"
     },
     {
         id: "8",
         heading: "Personalized Improvement Plans",
         description: "TDBase creates customized growth plans based on your unique trading patterns to help you improve consistently over time.",
-        image: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-3.svg"
+        image: "/img/7.jpg"
     },
     {
         id: "9",
         heading: "Secure MT4/MT5 Integration",
         description: "Easily connect your MetaTrader 4 or 5 accounts with our secure integration to start tracking your trades and performance instantly.",
-        image: "https://deifkwefumgah.cloudfront.net/shadcnblocks/block/placeholder-3.svg"
+        image: "/img/9.png"
     },
 ]
 
