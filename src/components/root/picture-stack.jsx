@@ -3,7 +3,7 @@ import Image from "next/image"
 const team = [
     {
         name: "Amoke Emmanuel",
-        role: "Founder, TDBase",
+        role: "Founder & CEO, TDBase",
         class: "order-1 lg:order-2",
         linkedin: "",
         img: "/img/amoke-emmanuel.png"
@@ -13,7 +13,7 @@ const team = [
         role: "Co Founder & Chief Marketing Officer, TDBase",
         class: "order-2 lg:order-1",
         linkedin: "",
-        img: "/img/roopkatha-ghoosh.png"
+        img: "/img/roopkatha-ghoosh.jpg"
     },
     // {
     //     name: "Williams Loy",
