@@ -59,7 +59,7 @@ const features = [
     {
         id: "9",
         heading: "Secure MT4/MT5 Integration",
-        description: "Easily connect your MetaTrader 4 or 5 accounts with our secure integration to start tracking your trades and performance instantly.",
+        description: "Easily connect your MT4/MT5 accounts with our secure integration to start tracking your trades and performance instantly.",
         image: "/img/9.png"
     },
 ]

@@ -138,7 +138,7 @@ export default function PricingCard() {
     const [isAnnually, setIsAnnually] = useState(false);
 
     return (
-        <div className="max-w-6xl">
+        <div className="max-w-6xl mx-auto">
             <div className="container mx-auto max-w-6xl">
                 <div className="mx-auto flex max-w-7xl flex-col gap-6">
                     <div className="flex flex-col justify-between gap-10 md:flex-row">

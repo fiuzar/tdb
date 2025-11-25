@@ -23,14 +23,14 @@ export default function Hero({
 								<div className="size-full rounded-full border"></div>
 							</div>
 						</div>
-						<h1 className="mx-auto max-w-6xl text-center text-3xl font-medium text-balance md:text-6xl">
+						<h1 className="mx-auto max-w-4xl text-center text-3xl font-medium text-balance md:text-6xl">
 							{heading}
 						</h1>
 						<p className="mx-auto max-w-3xl text-center text-muted-foreground md:text-lg">
 							{description}
 						</p>
 						<div className="flex items-center justify-center gap-3 pt-3 pb-12">
-							<Button size="lg" className={`py-6 bg-green-800 text-white`} asChild>
+							<Button size="lg" className={`py-6 bg-green-800 text-white hover:text-black`} asChild>
 								<Link href="/waitlist">{`Join the Waitlist`}</Link>
 							</Button>
 							<Button size="lg" variant={`ghost`} className={`py-6 border`} asChild>

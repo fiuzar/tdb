@@ -32,13 +32,13 @@ export default function Footer() {
                                     <div className="flex flex-col items-center justify-between gap-6 md:flex-row">
                                         <div className="flex flex-wrap justify-center gap-x-6 gap-y-1 text-sm font-medium text-zinc-800 dark:text-zinc-200">
                                             <Link className="transition hover:text-teal-500 dark:hover:text-teal-400" href="/features">Features</Link>
-                                            <Link className="transition hover:text-teal-500 dark:hover:text-teal-400" href="/install">Install</Link>
-                                            <Link className="transition hover:text-teal-500 dark:hover:text-teal-400" href="/">About Us</Link>
-                                            <Link className="transition hover:text-teal-500 dark:hover:text-teal-400" href="/terms">Terms & Condition</Link>
-                                            <Link className="transition hover:text-teal-500 dark:hover:text-teal-400" href="/privacy-policy">Privacy</Link>
+                                            <Link className="transition hover:text-teal-500 dark:hover:text-teal-400" href="/pricing">Pricing</Link>
+                                            <Link className="transition hover:text-teal-500 dark:hover:text-teal-400" href="/about">About Us</Link>
+                                            <Link className="transition hover:text-teal-500 dark:hover:text-teal-400" href="/#">Terms & Condition</Link>
+                                            <Link className="transition hover:text-teal-500 dark:hover:text-teal-400" href="/#">Privacy Policy</Link>
                                         </div>
                                         <p className="text-sm text-zinc-400 dark:text-zinc-500">
-                                            © 2025 Pip. All rights reserved.
+                                            © 2025 TDBase. All rights reserved.
                                         </p>
                                     </div>
                                 </div>
