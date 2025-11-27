@@ -15,12 +15,13 @@ const team = [
         linkedin: "",
         img: "/img/roopkatha-ghoosh.jpg"
     },
-    // {
-    //     name: "Williams Loy",
-    //     role: "Co Founder & Sales Manager, TDBase",
-    //     class: "order-3",
-    //     linkedin: ""
-    // },
+    {
+        name: "Williams Loy",
+        role: "Co Founder & Sales Manager, TDBase",
+        class: "order-3",
+        linkedin: "",
+        img: "/img/wiliams-loy.jpg"
+    },
 ]
 
 export default function PictureStack() {
